@@ -17,8 +17,8 @@
 #define MOTOR_BOTH     ( MOTOR_LEFT | MOTOR_RIGHT )
 #define IR_CHANNEL     0 
 
-int max_speed;         /* Motor maximal speed (will be detected) */
-POOL_T ir;             /* IR sensor port (will be detected) */ 
+int max_speed;         /* Motor maximal speed (will be detected) */ 
+POOL_T ir;             /* IR sensor port (will be detected) */
 POOL_T rc;
 uint8_t snRight;
 uint8_t snLeft;
